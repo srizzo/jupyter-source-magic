@@ -1,0 +1,7 @@
+*.egg-info/
+dist/
+build/
+*.py[cod]
+.ipynb_checkpoints/
+tmp/
+.jupyter-tmp-cell-content.py
