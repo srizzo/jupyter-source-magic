@@ -1,10 +1,9 @@
 from IPython.display import display
-
 from IPython.core.magic_arguments import magic_arguments, argument, parse_argstring
 from IPython.core.magic import line_magic, cell_magic, Magics, magics_class
 
-from filemanager import FileManager
-from editorwidget import EditorWidget
+from .filemanager import FileManager
+from .editorwidget import EditorWidget
 
 @magics_class
 class SourceMagics(Magics):

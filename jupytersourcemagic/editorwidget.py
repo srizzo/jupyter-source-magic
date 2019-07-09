@@ -1,9 +1,11 @@
 import re
-from haltexecution import HaltExecution
+
 from jupyter_interval_widget import Interval
 from ipywidgets.widgets import Button, Output, HBox, VBox
 from IPython.display import display, clear_output, Javascript
 from IPython.utils.py3compat import input
+
+from .haltexecution import HaltExecution
 
 MAGICS_REGEX = r"^((\n*(%%.+)\n)+)"
 
