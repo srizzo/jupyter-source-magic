@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="jupyter-source-magic",
-    version='0.1.1',
+    version='0.1.2',
     url='https://github.com/srizzo/jupyter-source-magic',
     author="Samuel Rizzo",
     author_email='rizzolabs@gmail.com',

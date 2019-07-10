@@ -68,6 +68,7 @@ class EditorWidget(VBox):
             IPython.notebook.kernel.execute(cmd, {iopub: callback}, {silent: false});
         """
         clear_output(wait=True)
+        display(self)
         display(Javascript(js % (self.path,)))
 
 
